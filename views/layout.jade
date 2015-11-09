@@ -1,7 +1,21 @@
 doctype html
 html
   head
-    title= title
+    title PostrgreSQl DB
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
-    block content
+    header#header
+      h1 Base datos con postgreSQL, en la nuve, heroku, interfaz node.js
+      h4 Base de datos: empleados, tabla: empleados
+      
+    div#flex
+      nav#nav
+        include partials/navigation
+      section#section
+
+        block content
+      aside#aside
+        include partials/aside
+      
+    footer#footer
+      h8 jose manso ortega

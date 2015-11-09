@@ -1,8 +1,55 @@
-body {
+/*body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
+}*/
 
 a {
   color: #00B7FF;
+}
+
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}
+
+/* los 3 espacios verticales*/
+#flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  /*border:2px solid #30F;*/
+}
+#flex nav {
+  order:0;
+  flex:0 1 auto;
+  flex-grow:1;
+  /*aling-self:auto;*/
+  padding: 3px;
+  border:2px solid #30F;
+}
+#flex section {
+  order:0;
+  flex:0 2 auto;
+  flex-grow:7;
+  /*aling-self:auto;*/
+  padding: 3px;
+ /* border:2px solid #30F;*/
+}
+#flex aside {
+  order:0;
+  flex:0 3 auto;
+  flex-grow:1;
+  /*aling-self:auto;*/
+  padding: 3px;
+ border:2px solid #30F;
 }
